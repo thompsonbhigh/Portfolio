@@ -12,6 +12,9 @@ const Credits = () => {
         <p class='text-2xl p-5 text-[#DAD2FF]'>
             "Deep Space skybox" (https://skfb.ly/puuOG) by Jungle Jim is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
         </p>
+        <p class='text-2xl p-5 text-[#DAD2FF]'>
+            "Chibi UFO - Low Poly" (https://skfb.ly/6WOnv) by dammne is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+        </p>
     </main>
   )
 }
