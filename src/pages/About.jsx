@@ -8,45 +8,75 @@ const About = () => {
       <br/>
       <h1 class='text-6xl text-[#DAD2FF]'>Hello, I'm <span class='font-semibold text-purple-500'>Thompson</span></h1>
       <p class='text-[#DAD2FF] mr-50 mt-5'>
-          I’m a junior Computer Science student at Texas A&M University with a strong interest 
-          in software development and problem-solving. I enjoy understanding how systems work from the ground up, 
-          whether that means exploring hardware, writing clean and efficient code, or collaborating on team-based projects.
+            I am a junior Computer Science student at Texas A&M
+            University with a strong interest in software development and
+            problem-solving. I am driven by a desire to understand
+            systems at a fundamental level, from exploring hardware to
+            designing and implementing clean and efficient code. I enjoy
+            collaborating in team-based environments where ideas, technical
+            skills, and perspectives come together to build effective solutions.
       </p>
 
       <h2 class='text-[#B2A5FF] mt-10 text-4xl'>The Beginning</h2>
       <p class='text-[#DAD2FF] mr-50'>
-          I was always fascinated by computers and electronics, constantly wondering how people managed to build such 
-          complex and powerful devices. That curiosity, wanting to understand how things worked rather than just use 
-          them, set me on the path that eventually led me to Computer Science.
+            I have been fascinated by computers from a young age, often
+            wondering how such complex and powerful systems are designed
+            and built. Rather than simply using technology, I was driven to
+            understand the technology beneath the surface. This curiosity
+            guided me toward pursuing Computer Science as both an
+            academic focus and a career path.
       </p>
 
       <h2 class='text-[#B2A5FF] mt-10 text-4xl'>First Time Coding</h2>
       <p class='text-[#DAD2FF] mr-50'>
-		My first experience with coding came in second grade, when I was invited to join a small special class focused on basic programming concepts. We met daily and experimented with simple drag-and-drop coding tools. While it was introductory, it sparked something that stuck with me.
-		In fourth grade, the class culminated in a final project where we had to program a robot to help address an accessibility challenge. My group chose to design a robot that could turn on a light switch when someone entered a room, assisting individuals who might not be able to reach it themselves. This was my first time working with code beyond a visual interface, and it made programming feel tangible and impactful. That project played a big role in growing my interest in coding.
-
+		In fourth grade, the class culminated in a final project where we had
+         to program a robot to help address an accessibility challenge. My group
+          chose to design a robot that could turn on a light switch when someone 
+          entered a room, assisting individuals who might not be able to reach it 
+          themselves. This was my first time working with code beyond a visual 
+          interface, and it made programming feel tangible and impactful. That 
+          project played a big role in growing my interest in coding.
       </p>
 
       <h2 class='text-[#B2A5FF] mt-10 text-4xl'>Growing Interest</h2>
       <p class='text-[#DAD2FF] mr-50'>
-		By seventh grade, my interest in computers had expanded beyond software. I wanted to understand what was happening inside the machine itself. I began researching computer hardware and eventually decided to build my own PC. After saving up money and receiving parts for Christmas, I spent most of the day assembling it, troubleshooting issues, and figuring out why certain components weren’t working.
-		With a lot of trial and error (and more than a few YouTube tutorials), I successfully built my own computer. That experience gave me a strong appreciation for how hardware works, and once I understood the physical side, I became even more motivated to learn how software could control and bring that hardware to life.
-
+		    By seventh grade, my interest in computing had expanded beyond software to the inner workings
+            of the machine itself. I wanted to understand what was happening beneath the surface, which led
+            me to research computer hardware and ultimately build my own PC. After saving money and
+            receiving several components as Christmas gifts, I spent an entire day assembling the system,
+            troubleshooting issues, and diagnosing why certain parts were not functioning as expected.
+            Through a combination of persistence, trial and error, and countless tutorials, I successfully built
+            a fully functioning computer. That experience gave me a stronger appreciation for hardware
+            architecture and system integration, and once I understood the physical foundation, I became
+            even more motivated to explore how software interfaces with hardware to bring systems to life.
       </p>
 
       <h2 class='text-[#B2A5FF] mt-10 text-4xl'>The Commitment</h2>
       <p class='text-[#DAD2FF] mr-50'>
-		Although I didn’t do much coding during high school, my interest in Computer Science never went away. When it came time to apply to colleges, I knew this was the field I wanted to pursue. I enrolled at Texas A&M University, where students spend their first year in General Engineering before applying to a specific major.
-		During that year, I had time to reflect on whether Computer Science was truly the right choice. In my first semester, I took an introductory Python course that focused heavily on teamwork and problem-solving. The final project involved building a game, and our group created a tic-tac-toe–style application. I had never built a game before and was unfamiliar with many of the tools required, but I quickly found myself fully invested.
-		I was constantly thinking about how to fix bugs, improve features, and refine the game, even outside of class. By the end of the project, I realized something important: I genuinely enjoyed the process. For the first time, a school project didn’t feel like work; it felt like something I wanted to keep doing.
-
+		Although I did not spend much time coding during high school, my interest in Computer Science
+        never faded. When applying to colleges, I knew this was the field I wanted to pursue. I enrolled
+        at Texas A&M University, where students spend their first year in General Engineering before
+        applying to a specific major, which allowed me the opportunity to reflect on whether Computer
+        Science was truly the right path for me. During my first semester, I took an introductory Python
+        course that emphasized teamwork and problem-solving. For the final project, my group and I
+        built a simple game, creating a tic-tac-toe–style application. While I had never built a game
+        before and was unfamiliar with many of the tools involved, I quickly became fully invested in
+        the project. I found myself thinking about bug fixes, feature improvements, and overall design
+        well beyond class time. By the end of the project, I realized how much I enjoyed the process. For
+        the first time, a school project did not feel like an obligation, it felt like something I wanted to
+        continue dedicating my hard work towards.
       </p>
 
       <h2 class='text-[#B2A5FF] mt-10 text-4xl'>Moving Forward</h2>
       <p class='text-[#DAD2FF] mr-50'>
-		Now in my junior year, I haven’t looked back. I genuinely enjoy my programming classes and am always thinking about new ideas and projects to build. Last semester, I completed a full-stack development project, which was easily the most fun I’ve had in college.
-		Working in a team environment with SCRUM meetings, defined roles, and frequent code reviews felt like a real professional experience. It reinforced my passion for software development and confirmed that this is the kind of work I want to continue doing. I’m excited to keep learning, building, and growing as a developer, and I hope to make a career out of it.
-
+		Now in my junior year, I have no doubts about my decision to pursue Computer Science. I enjoy
+        my programming courses and often find myself sparking new ideas and projects to build outside
+        of class. Last semester, I completed a full-stack development project that became one of the most
+        rewarding and enjoyable experiences of my college career. Working in a team environment with
+        SCRUM meetings, defined roles, and regular code reviews felt like a true industry experience. It
+        strengthened my passion for software development and confirmed that this is the type of work
+        and experience I strive to continue pursuing. I am excited to continue my learning while building
+        and improving as a developer, and I hope to turn this passion into a long-term career.
       </p>
     </main>
   )
