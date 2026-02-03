@@ -151,3 +151,40 @@ body::after {
     color: #C77DFF;
     font-size: 3rem;
 }
+
+.credits-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.glass-card-credit {
+    display: flex;
+    height: 30%;
+    width: 30%;
+    flex-direction: column;
+    margin: 3em;
+    border: 1px solid rgba(225, 159, 255, 0.18);
+    background: rgba(16, 0, 43, 0.09);
+    backdrop-filter: blur(15px);
+    border-radius: 1em;
+    padding: 2em;
+    transition: 0.5s;
+    margin-top: 5em;
+}
+
+.glass-card-credit:hover {
+    backdrop-filter: blur(30px);
+}
+
+.glass-card-credit h2 {
+    color: #C77DFF; 
+    font-size: 3rem;
+}
+
+
+.glass-card-credit p {
+    color: #E0AAFF;
+    font-size: 1rem;
+}
