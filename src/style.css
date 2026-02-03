@@ -1,1 +1,153 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-family: 'Space Mono', monospace;
+    background-color: black;
+}
+
+body::after {
+    content: "";
+    background-image: url('./assests/images/spacebg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+.glass-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.glass-card .btn-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.glass-card .next-btn {
+    margin-left: auto;
+}
+
+.glass-card span {
+    font-weight: bold;
+    color: #E0AAFF;
+}
+
+.glass-card {
+    display: flex;
+    height: 70%;
+    width: 50%;
+    justify-self: center;
+    flex-direction: column;
+    border: 1px solid rgba(225, 159, 255, 0.18);
+    background: rgba(16, 0, 43, 0.09);
+    backdrop-filter: blur(15px);
+    border-radius: 1em;
+    padding: 2em;
+    transition: 0.5s;
+}
+
+
+.glass-card:hover {
+    backdrop-filter: blur(30px);
+}
+
+.glass-card h2 {
+    color: #C77DFF; 
+    font-size: 3rem;
+}
+
+
+.glass-card p {
+    color: #E0AAFF;
+    font-size: 1.2rem;
+}
+
+.glass-card button {
+    text-align: center;
+    border: 1px, solid, #E0AAFF;
+    border-radius: 100em;
+    background-color: #9D4EDD;
+    width: 5em;
+    margin: 1em;
+    box-shadow: 1px 2px 3px #7B2CBF;
+    margin-left: auto;
+    color: white;
+    font-size: 1.5rem;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.glass-card button:hover {
+    background-color: #5A189A;
+}
+
+.projects-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.glass-card-project {
+    display: flex;
+    height: 70vh;
+    width: 50%;
+    flex-direction: column;
+    margin: 3em;
+    border: 1px solid rgba(225, 159, 255, 0.18);
+    background: rgba(16, 0, 43, 0.09);
+    backdrop-filter: blur(15px);
+    border-radius: 1em;
+    padding: 2em;
+    transition: 0.5s;
+    margin-top: 5em;
+}
+
+.glass-card-project:hover {
+    backdrop-filter: blur(30px);
+}
+
+.glass-card-project h2 {
+    color: #C77DFF; 
+    font-size: 3rem;
+}
+
+
+.glass-card-project p {
+    color: #E0AAFF;
+    font-size: 1rem;
+}
+
+.glass-card-project button {
+    text-align: center;
+    border: 1px, solid, #E0AAFF;
+    border-radius: 100em;
+    background-color: #9D4EDD;
+    width: 5em;
+    margin: 1em;
+    box-shadow: 1px 2px 3px #7B2CBF;
+    margin-left: auto;
+    color: white;
+    font-size: 1.5rem;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.glass-card-project button:hover {
+    background-color: #5A189A;
+}
+
+.glass-card-project a {
+    color: #C77DFF;
+    font-size: 3rem;
+}
